@@ -17,7 +17,7 @@ caterpillar.speed(0)
 caterpillar.penup()
 caterpillar.hideturtle()
 
-#create leaf turtle
+# create leaf turtle
 leaf = t.Turtle()
 leaf_shape = ((0,0),(14,2),(18,6),(20,20),(6,18),(2,14))
 t.register_shape('leaf', leaf_shape)
@@ -51,6 +51,7 @@ def outside_window():
     
     return outside
 
+# game over function
 def game_over():
     caterpillar.color("yellow")
     leaf.color("yellow")
